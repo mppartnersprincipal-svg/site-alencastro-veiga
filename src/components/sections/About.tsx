@@ -83,7 +83,7 @@ export default function About() {
 
             <div className="space-y-4 font-body text-gray-600 leading-relaxed">
               <p>
-                O escritório <strong className="text-primary-500">Alencastro Veiga e Advogados Associados</strong> atua desde 1997 em Goiânia, com expertise consolidada em Direito das Famílias, Sucessões e Responsabilidade Civil.
+                O escritório <strong className="text-primary-500">Alencastro Veiga e Advogados Associados</strong> atua desde 1997 em Goiânia, com expertise consolidada em Direito das Famílias e Sucessões, Direito de Seguros, Responsabilidade Civil (em acidente de trânsito).
               </p>
               <p>
                 Adotamos uma abordagem boutique, onde cada caso é tratado de forma artesanal e personalizada. <strong className="text-primary-500">Não trabalhamos com volume — trabalhamos com propósito.</strong>
@@ -92,7 +92,10 @@ export default function About() {
                 Nosso diferencial está no atendimento humanizado e na construção de estratégias jurídicas sob medida, considerando não apenas os aspectos legais, mas também as particularidades emocionais e familiares de cada situação.
               </p>
               <p>
-                Com atuação em Goiás e demais estados quando necessário, o escritório é conduzido pelas advogadas <strong className="text-primary-500">Maria Thereza Pacheco Alencastro Veiga</strong> (OAB/GO 10.070) e <strong className="text-primary-500">Katyusse Karlla de Oliveira Monteiro Alencastro Veiga</strong> (OAB/GO 20.818).
+                O escritório tem presença marcante nos Tribunais, sendo de constância a realização de despachos com julgadores, Ministério Público, bem como a realização de sustentações orais.
+              </p>
+              <p>
+                Com atuação em Goiás e demais estados quando necessário, o escritório é conduzido pelas advogadas <strong className="text-primary-500">Maria Thereza Alencastro Veiga</strong> (OAB/GO 10.070) e <strong className="text-primary-500">Katyusse Karlla de Oliveira Monteiro Alencastro Veiga</strong> (OAB/GO 20.818).
               </p>
             </div>
 

@@ -82,8 +82,8 @@ export default function Hero() {
             style={{ fontSize: 'clamp(2rem, 5vw, 3.25rem)' }}
           >
             Advocacia especializada em{' '}
-            <span className="text-accent">Direito das Famílias</span>{' '}
-            e Sucessões
+            <span className="text-accent">Direito das Famílias e Sucessões</span>
+            {', '}Direito Securitário (seguros em geral), Responsabilidade Civil (em acidente de trânsito).
           </motion.h1>
 
           {/* Subtitle */}
@@ -93,7 +93,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="font-body text-white/85 text-lg leading-relaxed mb-10 max-w-xl"
           >
-            Atendimento personalizado e estratégias jurídicas sob medida para cada caso. Escritório boutique que trata cada demanda com propósito e humanidade.
+            Atendimento personalizado e estratégias jurídicas sob medida para cada caso.
           </motion.p>
 
           {/* CTAs */}

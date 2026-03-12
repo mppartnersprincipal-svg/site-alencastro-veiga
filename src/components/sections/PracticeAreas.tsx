@@ -1,6 +1,6 @@
 import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
-import { Scale, ScrollText, Shield, Car, FileText, Check, MessageCircle } from 'lucide-react'
+import { Scale, ScrollText, Shield, FileText, Check, MessageCircle } from 'lucide-react'
 
 const areas = [
   {
@@ -44,15 +44,15 @@ const areas = [
     color: 'from-tertiary to-accent',
   },
   {
-    icon: Car,
+    icon: FileText,
     title: 'Direito Securitário e Responsabilidade Civil',
     description:
-      'Defendemos os direitos de vítimas em casos de acidentes, danos materiais e morais, buscando a justa reparação.',
-    highlight: 'Atuação firme na defesa dos direitos das vítimas contra terceiros e seguradoras.',
+      'Atuamos em todas as modalidades de seguros: vida, veículo, residencial, empresarial, aparelhos eletrônicos e condominial. Atendemos seguradoras e segurados, circunstância que traduz a amplitude do conhecimento do escritório. Responsabilidade civil, indenizações e ressarcimento de danos, incluindo acidentes de trânsito.',
+    highlight: 'Atendimento a seguradoras e segurados — amplitude técnica que gera soluções completas.',
     services: [
-      'Indenização por Acidente de Trânsito',
-      'Cobrança de Seguro (Veículo, Vida, Acidentes Pessoais, Residencial, Empresarial)',
-      'Ressarcimento por Danos Diversos',
+      'Seguros: vida, veículo, residencial, empresarial, eletrônicos e condominial',
+      'Responsabilidade Civil e Indenizações',
+      'Ressarcimento por Danos em Acidentes de Trânsito',
     ],
     color: 'from-primary-500 to-tertiary',
   },
@@ -106,7 +106,7 @@ export default function PracticeAreas() {
             Áreas de Atuação
           </h2>
           <p className="font-body text-gray-500 max-w-2xl mx-auto text-lg leading-relaxed">
-            Especialização aprofundada nas áreas que mais impactam a vida das pessoas e das famílias. Cada caso tratado com atenção individual.
+            Atuamos com excelência em questões jurídicas sensíveis, sempre com atendimento humanizado e estratégias personalizadas.
           </p>
           <div className="mt-6 flex justify-center">
             <div className="w-16 h-1 bg-gradient-to-r from-primary-500 to-accent rounded-full" />

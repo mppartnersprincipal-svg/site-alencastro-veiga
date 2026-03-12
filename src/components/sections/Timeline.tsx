@@ -6,7 +6,7 @@ const milestones = [
     year: '1997',
     title: 'Fundação do Escritório',
     description:
-      'Maria Thereza Pacheco Alencastro Veiga funda o escritório em Goiânia, com foco em Direito das Famílias e atendimento personalizado.',
+      'Maria Thereza Alencastro Veiga funda o escritório em Goiânia, com foco em Direito das Famílias e atendimento personalizado.',
   },
   {
     year: '2000s',
