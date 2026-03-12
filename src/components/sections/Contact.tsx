@@ -151,15 +151,6 @@ export default function Contact() {
               ))}
             </div>
 
-            {/* Office photo */}
-            <div className="relative rounded-2xl overflow-hidden h-56 shadow-lg">
-              <img
-                src="/images/foto-003.jpg"
-                alt="Escritório Alencastro Veiga"
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-primary-500/50 to-transparent" />
-            </div>
           </motion.div>
 
           {/* Right: Form */}
