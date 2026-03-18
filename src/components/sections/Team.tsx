@@ -40,6 +40,7 @@ const associates = [
     name: 'Vitória',
     oab: 'OAB/GO —',
     bio: 'Em breve mais informações sobre este profissional.',
+    photo: '/images/foto-008.jpg',
     specialties: [] as string[],
     linkedin: undefined as string | undefined,
   },
