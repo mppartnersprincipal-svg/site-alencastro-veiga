@@ -32,6 +32,7 @@ const associates = [
     name: 'Isabella',
     oab: 'OAB/GO —',
     bio: 'Em breve mais informações sobre este profissional.',
+    photo: '/images/foto-006.jpg',
     specialties: [] as string[],
     linkedin: undefined as string | undefined,
   },
@@ -159,11 +160,20 @@ export default function Team() {
                 transition={{ duration: 0.5, delay: 0.35 + index * 0.1 }}
                 className="bg-white/80 backdrop-blur-sm border border-white/70 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 will-change-transform"
               >
-                {/* Photo placeholder */}
-                <div className="h-48 bg-gradient-to-br from-primary-100 to-primary-200 flex items-center justify-center">
-                  <div className="w-20 h-20 rounded-full bg-primary-300/50 flex items-center justify-center">
-                    <span className="font-heading font-bold text-primary-500 text-2xl">{member.name.charAt(0)}</span>
-                  </div>
+                {/* Photo or placeholder */}
+                <div className="h-48 bg-gradient-to-br from-primary-100 to-primary-200 flex items-center justify-center overflow-hidden">
+                  {'photo' in member && member.photo ? (
+                    <img
+                      src={member.photo as string}
+                      alt={member.name}
+                      loading="lazy"
+                      className="w-full h-full object-cover object-top"
+                    />
+                  ) : (
+                    <div className="w-20 h-20 rounded-full bg-primary-300/50 flex items-center justify-center">
+                      <span className="font-heading font-bold text-primary-500 text-2xl">{member.name.charAt(0)}</span>
+                    </div>
+                  )}
                 </div>
                 <div className="p-5">
                   <h4 className="font-heading font-semibold text-primary-500 text-base mb-1">{member.name}</h4>
