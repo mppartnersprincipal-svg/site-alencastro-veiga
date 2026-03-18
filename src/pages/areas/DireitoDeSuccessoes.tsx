@@ -52,7 +52,7 @@ export default function DireitoDeSuccessoes() {
               className="rounded-2xl overflow-hidden shadow-lg"
             >
               <img
-                src="/images/foto-008.jpg"
+                src="/images/direito-sucessoes-hero.jpg"
                 alt="Direito de Sucessões — Alencastro Veiga"
                 className="w-full h-full object-cover"
                 style={{ maxHeight: '420px' }}
