@@ -48,6 +48,7 @@ const associates = [
     name: 'Pedro',
     oab: 'OAB/GO —',
     bio: 'Em breve mais informações sobre este profissional.',
+    photo: '/images/about-1.webp',
     specialties: [] as string[],
     linkedin: undefined as string | undefined,
   },
