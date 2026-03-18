@@ -39,23 +39,22 @@ export default function TutelaCuratela() {
           </Link>
         </div>
 
-        {/* Hero section */}
+        {/* Hero */}
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-16">
 
-            {/* Image */}
+            {/* Image placeholder */}
             <motion.div
               initial={{ opacity: 0, x: -30 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
-              className="rounded-2xl overflow-hidden shadow-lg"
+              className="rounded-2xl overflow-hidden shadow-lg bg-gradient-to-br from-primary-100 to-primary-200 flex items-center justify-center"
+              style={{ minHeight: '380px' }}
             >
-              <img
-                src="/images/foto-003.jpg"
-                alt="Tutela, Curatela e Tomada de Decisão Apoiada — Alencastro Veiga"
-                className="w-full h-full object-cover"
-                style={{ maxHeight: '420px' }}
-              />
+              <div className="text-center p-10">
+                <Shield size={56} className="text-primary-400 mx-auto mb-4" />
+                <p className="text-primary-400 font-body text-sm">Imagem em breve</p>
+              </div>
             </motion.div>
 
             {/* Content */}
@@ -89,7 +88,7 @@ export default function TutelaCuratela() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="bg-warm-gray-100 rounded-2xl p-8 mb-10"
+            className="bg-gray-50 rounded-2xl p-8 mb-10"
           >
             <h2 className="font-heading font-bold text-highlight-500 text-xl mb-6">Serviços Oferecidos</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-3">
@@ -107,7 +106,7 @@ export default function TutelaCuratela() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
-            className="flex flex-col sm:flex-row items-center justify-between gap-6 bg-primary-50 border border-primary-100 rounded-2xl px-8 py-6 mb-16"
+            className="flex flex-col sm:flex-row items-center justify-between gap-6 bg-gray-50 border border-gray-200 rounded-2xl px-8 py-6 mb-16"
           >
             <p className="font-body text-gray-500 text-sm leading-relaxed italic max-w-xl">
               "Preservamos a dignidade e a autonomia das pessoas representadas, atuando sempre com ética e humanidade."
@@ -135,7 +134,7 @@ export default function TutelaCuratela() {
                 <Link
                   key={title}
                   to={href}
-                  className="flex items-center gap-3 bg-white border border-warm-gray-200 hover:border-primary-300 hover:shadow-md rounded-xl px-5 py-4 transition-all duration-200 group"
+                  className="flex items-center gap-3 bg-white border border-gray-200 hover:border-primary-300 hover:shadow-md rounded-xl px-5 py-4 transition-all duration-200 group"
                 >
                   <Icon size={18} className="text-primary-400 flex-shrink-0 group-hover:text-primary-500 transition-colors" />
                   <span className="font-body text-sm text-gray-600 group-hover:text-primary-500 transition-colors leading-snug">{title}</span>
